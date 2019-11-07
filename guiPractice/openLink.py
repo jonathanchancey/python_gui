@@ -9,7 +9,7 @@ root = Tk()
 
 
 
-w = Label(root, text="Hello, world!")  #prints GUI text
+w = Label(root, text="Hello, 🦀!")  #prints GUI text
 #label widget can display text/icon/image
 w.pack()
 #sizes itself to fit the given text
