@@ -6,7 +6,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #Persistent
 
 ; CONSTANT DELCARATION
-TITLE = Luma Count
+TITLE = Encounters
 LOGFILENAME = debug.log
 COUNTFILENAME = count.txt
 FONTNAME = Lato
@@ -17,7 +17,7 @@ FileRead, FileSelected, %COUNTFILENAME%
 Counter = 0  ; Start counter at zero
 Counter = %FileSelected%
 
-sHeight := A_ScreenHeight-260
+sHeight := A_ScreenHeight-300
 sWidth := A_ScreenWidth-250
 
 Gui, Color, 000000
